@@ -16,9 +16,9 @@ ActiveRecord::Schema.define(version: 20170206194848) do
     t.string   "name"
     t.string   "description"
     t.string   "text"
-    t.integer  "prince_in_cents"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.integer  "price_in_cents"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
   end
 
 end
